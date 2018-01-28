@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menubar{
+    background-color: black;
+    min-height: 100px;
+    width: auto;
+}
+.menubar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+.menubar ul li{
+    display: inline;    
+}
+.menubar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 36px 50px;
+    display: block;
+    transition: .5s;
+    transform: scale(1.1);
+    float: left;
+}
+.menubar ul li a:hover{
+    color: bisque;
+    background-color:darkslategrey;
+}
+.logo{
+    float: left;
+    min-height: 95px;
+    width: 120px;
+    background-image: url(../image/final-logo1.png);
+    background-size: cover;
+    margin-left: 50px;  
+}
+
+.banner{
+    min-height: 1000px;
+    width: 100%;
+    background-color:beige;
+    background-image: url(../image/banner1.png);
+    background-size: cover;
+}
+h1{
+    color: aliceblue;
+    font-size: 70px;
+    padding-top: 300px;
+    padding-left: 45%
+}
+.content{
+    min-height: 600px;
+    width: 60%;
+    background-color: bisque;
+    position: absolute;
+}
+.side_bar{
+    min-height: 600px;
+    width: 40%;
+    background-color: cadetblue;
+    float: right;
+}
+.title{
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-style: italic;
+    border-bottom: 2px solid;
+    
+}
+.data{
+    margin: 30px;
+    font-size: 20px;
+    
+    
+}
+.data2{
+    margin: 30px;
+    font-size: 20px;
+}
+.data2 ul{
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.flyer{
+    min-height: 260px;
+    width: 500px;
+    background-color: beige;
+    margin: 3% 20%;
+    background-image: url(../image/flyer2.png)
+}
+.infographics{
+    min-height: 260px;
+    width: 500px;
+    background-color:blue;
+    margin: 3% 20%;
+    background-image: url(../image/infographic.png)
+}
